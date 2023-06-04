@@ -1,0 +1,31 @@
+.Pagination__Container {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+}
+
+.Pagination__Item {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.Pagination__Link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Pagination__Item.Pagination__Item--active {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  background-color: #c4c4c4;
+  justify-content: center;
+  align-items: center;
+}
